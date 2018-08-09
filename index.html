@@ -11,12 +11,56 @@
         
         <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css" />
         <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/highlight-9.12.0/default.css" />
         
         <script src="assets/js/jquery-3.1.1.min.js"></script>
         <script src="semantic/dist/semantic.min.js"></script>
+        <script src="assets/js/highlight-9.12.0.pack.js"></script>
+        
+        <script>
+            $(document).ready(function() {
+                // fix main menu to page on passing
+                $('.main.menu').visibility({
+                    type: 'fixed'
+                });
+                
+                //hljs.initHighlightingOnLoad();
+                $('pre code').each(function(i, block) {
+                    hljs.highlightBlock(block);
+                });
+            });
+        </script>
+
+        <style type="text/css">
+            .main.menu {
+                border-radius: 0;
+                border: none;
+                box-shadow: none;
+                transition: box-shadow 0.5s ease, padding 0.5s ease;
+            }
+
+            .main.menu.fixed {
+                background-color: #FFFFFF;
+                border: 1px solid #DDD;
+                box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+            }
+
+            .text.container .left.floated.image {
+                margin: 2em 2em 2em -4em;
+            }
+
+            .text.container .right.floated.image {
+                margin: 2em -4em 2em 2em;
+            }
+
+            .ui.footer.segment {
+                margin: 5em 0em 0em;
+                padding: 5em 0em;
+            }
+        </style>
     </head>
     <body>
-        
+        <!--
         <div class="ui fixed inverted menu">
             <div class="ui container">
                 <a class="header item" href="#">
@@ -27,10 +71,95 @@
                 <a class="header item" href="https://newfurniturey.com/projects">Projects</a>
             </div>
         </div>
-
+        -->
         <div class="ui main text container">
             <h1 class="ui header">Joey Fowler // newfurniturey</h1>
             
+            <p>Some people say that I am a waffle. While this may often appear the case, it is really within this honeycomb that I rest. Waiting.</p>
+            
+            <p>Truth be told, I am but a lone maple syrup lawyer attempting to slowly decant my far-reaching acumen to the plates of all hungry breakfast goers.</p>
+            
+            <p>Please, pull up a chair and let me ramble for a bit. I do so hope that you'll enjoy the meal.</p>
+        </div>
+        
+        <div class="ui borderless main menu">
+            <div class="ui text container">
+                <a class="header item" href="#">
+                    <img class="logo" src="assets/images/logo.png" />
+                    newfurniturey
+                </a>
+                <a class="item" href="https://newfurniturey.com/blog">Blog</a>
+                <a class="item" href="https://newfurniturey.com/projects">Projects</a>
+            </div>
+        </div>
+
+        <!--
+        <div class="ui main text container">
+            <h1 class="ui header">Joey Fowler // newfurniturey</h1>
+            
+            <p>Oh hai =]</p>
+        </div>
+        -->
+
+        <div class="ui text container">
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            
+<pre><code class="html">&lt;!DOCTYPE HTML&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="utf-8" /&gt;
+    &lt;title&gt;Semantic UI CDN&lt;/title&gt;
+    &lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/&gt;
+    &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"&gt;&lt;/script&gt;
+    &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+      &lt;!-- Your Semantic UI Code --&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
+            <p>Oh hai =]</p>
             <p>Oh hai =]</p>
         </div>
 
