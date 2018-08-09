@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <meta charset="utf=8" />
+        <meta charset="utf-8" />
         
         <title>Joey Fowler - Maple Syrup Lawyer</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -10,68 +10,14 @@
         <meta name="keywords" content="joey fowler, security, infosec, appsec, webapp sec, programming, coding, scripting, newfurniturey, waffles" />
         
         <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css" />
-        <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
         <link rel="stylesheet" type="text/css" href="assets/css/highlight-9.12.0/default.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
         
         <script src="assets/js/jquery-3.1.1.min.js"></script>
         <script src="semantic/dist/semantic.min.js"></script>
         <script src="assets/js/highlight-9.12.0.pack.js"></script>
-        
-        <script>
-            $(document).ready(function() {
-                // fix main menu to page on passing
-                $('.main.menu').visibility({
-                    type: 'fixed'
-                });
-                
-                //hljs.initHighlightingOnLoad();
-                $('pre code').each(function(i, block) {
-                    hljs.highlightBlock(block);
-                });
-            });
-        </script>
-
-        <style type="text/css">
-            .main.menu {
-                border-radius: 0;
-                border: none;
-                box-shadow: none;
-                transition: box-shadow 0.5s ease, padding 0.5s ease;
-            }
-
-            .main.menu.fixed {
-                background-color: #FFFFFF;
-                border: 1px solid #DDD;
-                box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
-            }
-
-            .text.container .left.floated.image {
-                margin: 2em 2em 2em -4em;
-            }
-
-            .text.container .right.floated.image {
-                margin: 2em -4em 2em 2em;
-            }
-
-            .ui.footer.segment {
-                margin: 5em 0em 0em;
-                padding: 5em 0em;
-            }
-        </style>
     </head>
     <body>
-        <!--
-        <div class="ui fixed inverted menu">
-            <div class="ui container">
-                <a class="header item" href="#">
-                    <img class="logo" src="assets/images/logo.png">
-                    newfurniturey
-                </a>
-                <a class="header item" href="https://newfurniturey.com/blog">Blog</a>
-                <a class="header item" href="https://newfurniturey.com/projects">Projects</a>
-            </div>
-        </div>
-        -->
         <div class="ui main text container">
             <h1 class="ui header">Joey Fowler // newfurniturey</h1>
             
@@ -92,14 +38,6 @@
                 <a class="item" href="https://newfurniturey.com/projects">Projects</a>
             </div>
         </div>
-
-        <!--
-        <div class="ui main text container">
-            <h1 class="ui header">Joey Fowler // newfurniturey</h1>
-            
-            <p>Oh hai =]</p>
-        </div>
-        -->
 
         <div class="ui text container">
             <p>Oh hai =]</p>
@@ -176,6 +114,19 @@
                 </div>
             </div>
         </div>
-        
+
+        <script>
+            $(document).ready(function() {
+                // fix main menu to page on passing
+                $('.main.menu').visibility({
+                    type: 'fixed'
+                });
+                
+                //hljs.initHighlightingOnLoad();
+                $('pre code').each(function(i, block) {
+                    hljs.highlightBlock(block);
+                });
+            });
+        </script>
     </body>
 </html>
