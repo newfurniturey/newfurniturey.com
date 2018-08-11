@@ -49,6 +49,26 @@ body {
 }
 
 .ui.footer.segment {
-    margin: 5em 0em 0em;
-    padding: 5em 0em;
+    margin: 0px;
+    padding: 1em 0em 5em 0em;
+}
+
+.article {
+    margin-bottom: 2em;
+    box-shadow: 0 4px 5px -1px #eee;
+    padding: 5px 10px;
+}
+
+.article-header {
+    margin-bottom: 1em;
+}
+
+.article-header h2 {
+    margin-bottom: 0px;
+}
+
+.article-header .article-date {
+    color: #888;
+    font-size: small;
+    margin: 0px;
 }
